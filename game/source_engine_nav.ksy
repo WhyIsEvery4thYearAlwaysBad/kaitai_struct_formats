@@ -369,6 +369,7 @@ types:
       # Ladders
       - id: ladder_data
         type: area_id_array
+        if: '_root.version >= 6'
         repeat: expr
         repeat-expr: 2
       # Occupy times
